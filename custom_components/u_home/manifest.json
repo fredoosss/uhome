@@ -1,0 +1,16 @@
+{
+  "domain": "u_home",
+  "name": "U home",
+  "codeowners": [
+    "@jellojank"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "application_credentials"
+  ],
+  "documentation": "https://github.com/jellojank/uhome",
+  "issue_tracker": "https://github.com/jellojank/uhome/issues",
+  "iot_class": "cloud_polling",
+  "requirements": ["uhomepy"],
+  "version": "0.1.0"
+}
